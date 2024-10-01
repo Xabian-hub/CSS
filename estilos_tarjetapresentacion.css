@@ -1,0 +1,41 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para la tarjeta */
+.tarjeta {
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos para el nombre */
+.tarjeta h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la profesión */
+.tarjeta h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Estilos para la descripción */
+.tarjeta p {
+    color: #666;
+    font-size: 14px;
+}
