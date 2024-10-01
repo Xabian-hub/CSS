@@ -1,0 +1,83 @@
+/* Estilo para el body para centrar el contenido */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    height: 110vh; /* Ocupa toda la altura de la pantalla */
+    margin: 1px;
+    font-family: Arial, sans-serif;
+    background-color: #dddbdb;
+    text-align: center; /* Para centrar el texto */
+    padding: 20px;
+}
+
+/* Estilo para el título usando el ID */
+#titulo {
+    color: #9466c9;
+    text-shadow: 4px 4px 8px rgba(96, 65, 146, 0.3);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección explicativa */
+.explicacion {
+    background-color: #bbd6dd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 30px rgba(15, 28, 206, 0.1);
+}
+
+.explicacion h2 {
+    color: #375070;
+    margin-bottom: 15px;
+}
+
+.explicacion ul {
+    text-align: left;
+}
+
+.explicacion li {
+    margin-bottom: 10px;
+}
+
+/* Estilo común para los párrafos usando la clase */
+.texto {
+    color: #3f2777;
+    margin: 10px 0;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para el texto */
+    width: 60%;
+    line-height: 1.6;
+}
+
+/* Estilo único para el botón usando la clase y el ID */
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+
+    /* Añadir sombra al botón */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
+    /* Transición para suavizar los efectos al interactuar con el botón */
+    transition: background-color 0.5s ease, box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+#botonEnviar:hover {
+    background-color: #c0392b; /* Color más oscuro al pasar el cursor */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al pasar el cursor */
+}
+
+/* Efecto de "presionar" el botón */
+#botonEnviar:active {
+    transform: translateY(5px); /* El botón se desplaza hacia abajo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más suave mientras está presionado */
+}

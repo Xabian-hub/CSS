@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases e Identificadores en CSS</title>
+    <link rel="stylesheet" href="estilos_clases_identificadores.css">
+</head>
+<body>
+
+    <!-- Título con un ID único -->
+    <h1 id="titulo">Clases e identificadores</h1>
+
+    <!-- Sección explicativa sobre clases e identificadores -->
+    <section class="explicacion">
+        <h2>Clases e Identificadores en CSS</h2>
+        <p>Expongo las diferencias entre las <strong>clases (class)</strong> y los <strong>identificadores (id)</strong> en CSS, cuándo es adecuado usar cada uno y cómo se utilizan en el HTML.</p>
+        <ul>
+            <li><strong>Clases (class):</strong> Se utilizan cuando deseas aplicar el mismo estilo a múltiples elementos. Por ejemplo, todos los párrafos en esta página usan la clase <code>.texto</code>.</li>
+            <li><strong>Identificadores (id):</strong> Son únicos, es decir, solo deben usarse una vez en un documento HTML. El título y el botón en esta página tienen identificadores únicos: <code>#titulo</code> y <code>#botonEnviar</code>.</li>
+            <li><strong>Especificidad:</strong> Los identificadores tienen mayor prioridad que las clases. Si un elemento tiene ambos, el estilo del identificador prevalecerá.</li>
+        </ul>
+    </section>
+
+    <!-- Párrafos con la clase "texto" -->
+    <p class="texto">Este es el primer párrafo de ejemplo. Comparte el mismo estilo que los demás párrafos porque todos utilizan la clase <code>.texto</code>.</p>
+    <p class="texto">Este es el segundo párrafo de ejemplo. Todos los párrafos tienen el mismo color, tamaño de fuente y sombra en el texto.</p>
+    <p class="texto">Este es el tercer párrafo de ejemplo. Usar clases permite mantener un estilo uniforme y sencillo de aplicar a varios elementos.</p>
+
+    <!-- Botón con clase y ID -->
+    <button class="boton" id="botonEnviar">Enviar</button>
+
+</body>
+</html>
